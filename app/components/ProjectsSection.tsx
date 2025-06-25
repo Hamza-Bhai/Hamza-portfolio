@@ -52,7 +52,7 @@ export default function ProjectsSection() {
 									</div>
 								</div>
 								<div className="bg-black/30 rounded-xl flex justify-center cursor-pointer">
-									<Image src="/lovetolaundry.png" alt="lovetolaundry" width={500} height={200} onClick={() => { router.push('https://order.love2laundry.com/') }} />
+									<Image src="/love2laundry.png" alt="lovetolaundry" width={500} height={200} onClick={() => { router.push('https://order.love2laundry.com/') }} />
 								</div>
 							</div>
 						</div>
@@ -99,7 +99,7 @@ export default function ProjectsSection() {
 									</div>
 								</div>
 								<div className="bg-black/30 rounded-xl flex justify-center cursor-pointer">
-									<Image src="/resumetry.png" alt="resumetry" width={500} height={200} onClick={() => { router.push('https://resumetry-one.vercel.app/') }} />
+									<Image src="/resumetry-buildet.png" alt="resumetry" width={500} height={200} onClick={() => { router.push('https://resumetry-one.vercel.app/') }} />
 								</div>
 							</div>
 						</div>
