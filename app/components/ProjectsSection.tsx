@@ -6,11 +6,11 @@ import { useRouter } from 'next/navigation'
 export default function ProjectsSection() {
 	const router = useRouter()
 	return (
-		<section className="py-20 px-4">
+		<section className="py-15 px-4">
 			<div className="max-w-6xl mx-auto">
-				<motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-3xl font-bold mb-16 text-center">
-					Full Stack Projects
-				</motion.h2>
+				<motion.h1 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-5xl font-bold mb-16 text-center">
+					Projects
+				</motion.h1>
 
 				<div className="space-y-16">
 					{/*  order.love2laundry.com */}

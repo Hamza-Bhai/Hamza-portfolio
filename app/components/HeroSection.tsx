@@ -18,27 +18,50 @@ export default function HeroSection() {
 						<h1 className="text-4xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-teal-500">
 							Hamza Pervaiz
 						</h1>
-						<h2 className="text-2xl md:text-4xl font-bold text-white">Full Stack Developer</h2>
+						<h2 className="text-2xl md:text-4xl font-bold text-white">SR Frontend Developer</h2>
 						<p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-							I bring 4+ years of expertise in delivering robust, scalable applications and driving full-stack development teams through successful product lifecycles.
+							Experienced Senior Frontend Developer with 4+ years of experience in React.js and Next.js , and 1 year in Angular. Skilled in building responsive, high-performance web apps with clean, maintainable code. Passionate about user experience, modern web practices, and continuous learning.
 						</p>
 						<p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto">
 							Previously Senior Frontend  Developer at <span className="text-blue-400">Appiskey</span> and Frontend  Lead at{' '}
 							<span className="text-purple-400">Brandigo</span>
 						</p>
 					</div>
-					<div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-6 md:mb-8">
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">Reactjs & Next.js</span>
+					<div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-6 md:mb-8 w-9/12 m-auto">
+						{/* <!-- Frontend --> */}
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-orange-500/10 rounded-full text-orange-400 text-xs md:text-sm">HTML5</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">CSS3</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-indigo-500/10 rounded-full text-indigo-400 text-xs md:text-sm">Bootstrap</span>
 						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">Tailwind CSS</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-500/10 rounded-full text-teal-400 text-xs md:text-sm">Redux-Toolkit</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-yellow-300 text-xs md:text-sm">Javascript</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-indigo-500/10 rounded-full text-indigo-400 text-xs md:text-sm">React-Bootstrap</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">Material-UI</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-yellow-500/10 rounded-full text-yellow-400 text-xs md:text-sm">JavaScript</span>
 						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-500 text-xs md:text-sm">TypeScript</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">React.js</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">Next.js</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-500/10 rounded-full text-teal-400 text-xs md:text-sm">Redux Toolkit</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-pink-500/10 rounded-full text-pink-400 text-xs md:text-sm">TanStack Query</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-green-500/10 rounded-full text-green-400 text-xs md:text-sm">GSAP</span>
+						{/* <!-- Forms & Validation --> */}
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-indigo-500/10 rounded-full text-indigo-400 text-xs md:text-sm">Formik</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-indigo-500/10 rounded-full text-indigo-400 text-xs md:text-sm">React Hook Form</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">Zod</span>
+						{/* <!-- Backend & Database --> */}
 						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-500/10 rounded-full text-teal-400 text-xs md:text-sm">Node.js</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-green-600 text-xs md:text-sm">MongoDB</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-orange-400 text-xs md:text-sm">Git</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-green-500/10 rounded-full text-green-500 text-xs md:text-sm">MongoDB</span>
+						{/* <!-- DevOps & Deployment --> */}
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-orange-500/10 rounded-full text-orange-400 text-xs md:text-sm">Git</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">Vercel</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-indigo-500/10 rounded-full text-indigo-400 text-xs md:text-sm">Railway</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-yellow-500/10 rounded-full text-yellow-500 text-xs md:text-sm">AWS</span>
+						{/* <!-- Analytics & Monitoring --> */}
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-green-500/10 rounded-full text-green-400 text-xs md:text-sm">Google Analytics</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-green-500/10 rounded-full text-green-400 text-xs md:text-sm">Google Tag Manager</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-red-500/10 rounded-full text-red-400 text-xs md:text-sm">Sentry</span>
+						{/* <!-- Other --> */}
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-yellow-500/10 rounded-full text-yellow-500 text-xs md:text-sm">Firebase</span>
 					</div>
 				</motion.div>
-
 				{/* Interactive System Architecture */}
 				<div className="w-full max-w-5xl mx-auto relative px-2 md:px-4">
 					<motion.div
@@ -83,15 +106,15 @@ export default function HeroSection() {
 								<ul className="space-y-1.5 md:space-y-2 text-xs md:text-sm text-gray-400">
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-purple-500 rounded-full" />
-										API Design & Development
+										API Design & Deployment
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-purple-500 rounded-full" />
-										Database Architecture
+										Database Integration
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-purple-500 rounded-full" />
-										Build Stream Apis
+										Implement CRUD operations
 									</li>
 								</ul>
 							</div>
@@ -107,7 +130,7 @@ export default function HeroSection() {
 								<ul className="space-y-1.5 md:space-y-2 text-xs md:text-sm text-gray-400">
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
-										AWS Infrastructure
+										AWS EC2
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
@@ -115,7 +138,7 @@ export default function HeroSection() {
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
-										Render Deployment
+										Railway Deployment
 									</li>
 								</ul>
 							</div>
